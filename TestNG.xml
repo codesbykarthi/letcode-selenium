@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+    <test name="Regression Test">
+        <parameter name="testName" value="Regression"/>
+        <classes>
+            <class name="TestCase.Letcode"/>
+        </classes>
+    </test>
+    
+    
+
+</suite>
